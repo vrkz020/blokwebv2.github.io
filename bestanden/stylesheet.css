@@ -1,0 +1,485 @@
+body {
+    background-color: #ffffff;
+    font-family: "nexaBold";
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    height: 2.812em;
+}
+
+footer {
+    background-color: #f7f7f7;
+    height: 1.5em;
+    width: 100%;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration-line: underline;
+}
+
+p {
+    font-family: "nexaRegular";
+    font-size: 1em;
+    line-height: 1em;
+    margin: .5em;
+
+}
+
+h1 {
+    font-size: 2.1875em;
+}
+
+h2 {
+    font-size: 2.1em;
+}
+
+h3 {
+    font-size: 1.5625em;
+    margin: .5em;
+}
+
+h4 {
+    font-size: 1.125em;
+    line-height: .3em;
+    margin: .2em;
+}
+
+/* bron w3schools https://www.w3schools.com/css/tryit.asp?filename=trycss_float5 (aangepast naar eigen ontwerp) */
+ul {
+    display: flex;
+    justify-content: flex-start;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+li a {
+    color: #29d37c;
+    display: inline-block;
+    padding: 0.875em 1em;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+/* bron: stackoverflow https://stackoverflow.com/questions/41855786/float-right-the-last-item-of-the-menu-bar */
+li:nth-last-child(1) {
+    display: inline-block;
+    position: absolute;
+    right: 0.5em;
+}
+
+/* einde bron */
+
+
+/* bron: https://stackoverflow.com/questions/2397370/change-link-color-of-the-current-page-with-css */
+li a:hover {
+    color: #29129d;
+}
+
+/* einde bron */
+
+li a:active {
+    color: #29129d;
+    text-decoration: underline;
+}
+
+
+.ontdekkenknop:hover {
+    background-color: #413096;
+}
+
+.downloaden:hover {
+    background-color: #413096;
+}
+
+.mijnlijst:hover {
+    background-color: #413096;
+}
+
+.verwijderen:hover {
+    background-color: #413096;
+}
+
+.collapsible:hover {
+    background-color: #fa6990;
+}
+
+
+
+
+.homemain {
+    align-content: center;
+    background-color: #ffffff;
+    border-top-left-radius: 0.750em;
+    border-top-right-radius: 0.750em;
+    color: #ffff;
+    line-height: 0;
+    padding: 0.625em;
+    text-decoration: none;
+}
+
+
+.meestgeliked {
+    align-content: center;
+    background-color: #29d37c;
+    border-radius: 0.750em;
+    color: white;
+    height: 9.375em;
+    margin-left: 1.875em;
+    margin-top: 10em;
+    padding: 0.625em;
+    width: 12.5em;
+
+}
+
+.ontdekkenknop {
+    align-content: center;
+    background-color: #29129d;
+    border-radius: 1.250em;
+    border-style: none;
+    color: white;
+    font-family: "nexaBold";
+    font-size: 1em;
+    height: 1.75em;
+    line-height: .3em;
+    margin-left: -.75em;
+    margin-top: 2em;
+    width: 13.75em;
+}
+
+.leestijd {
+    height: 15px;
+}
+
+
+.beige {
+    background-color: #f3e5d9;
+    color: white;
+    height: 34.375em;
+    margin-bottom: 1em;
+    padding: 1.25em;
+}
+
+.groen {
+    background-color: #29d37c;
+    color: white;
+    display: flex;
+    height: 8em;
+    justify-content: center;
+    padding-bottom: 5em;
+    padding-top: 5em;
+}
+
+.wit {
+    background-color: #ffffff;
+    color: black;
+    display: flex;
+    height: 8em;
+    justify-content: center;
+    padding-bottom: 5em;
+    padding-top: 5em;
+}
+
+
+.headlinelezen {
+    background-image: url(afbeeldingen/plaatjes/ongeluk1.png);
+    border-radius: 0.750em;
+    height: 9.375em;
+    line-height: 0;
+    margin: 0.625em;
+    padding: 0.625em;
+
+}
+
+.headlinezoek {
+    align-content: center;
+    background-color: #29129d;
+    border-radius: 0.750em;
+    height: 9.375em;
+    margin: 0.625em;
+    padding: 0.625em;
+    text-align: center;
+
+}
+
+.headlinetijd {
+    align-content: center;
+    background-color: #29d37c;
+    border-radius: 0.750em;
+    height: 9.375em;
+    line-height: 0.313em;
+    margin: 0.625em;
+    padding: 0.625em;
+    text-align: center;
+
+}
+
+
+.zoek {
+    border-bottom-right-radius: .5em;
+    border-top-right-radius: .5em;
+}
+
+.boektitel {
+    color: #ffff;
+    text-decoration: none;
+}
+
+
+.verhaalcard {
+    background-color: #29d37c;
+    border-radius: 0.750em;
+    height: 15.4em;
+    margin: 0em 0em 2em 1.4em;
+    padding-top: 1em;
+    text-decoration: none;
+    width: 23.1em;
+}
+
+
+
+.bundelplaatje {
+    padding-right: 1em;
+}
+
+
+.mijnlijst {
+    background-color: #29129d;
+    border-bottom-left-radius: 0.750em;
+    color: white;
+    float: left;
+    font-family: "nexaBold";
+    font-size: .68em;
+    height: 4.000em;
+    padding-right: 0.313em;
+    padding-top: 0.313em;
+    width: 50%;
+}
+
+.downloaden {
+    background-color: #29129d;
+    border-bottom-right-radius: 0.750em;
+    color: white;
+    float: right;
+    font-family: "nexaBold";
+    font-size: .68em;
+    height: 4.000em;
+    padding-right: 0.313em;
+    padding-top: 0.313em;
+    width: 50%;
+}
+
+.verwijderen {
+    background-color: #29129d;
+    border-bottom-left-radius: 0.750em;
+    border-bottom-right-radius: 0.750em;
+    color: white;
+    font-family: "nexaBold";
+    font-size: .75em;
+    height: 3em;
+    line-height: .3em;
+    padding-right: 0.313em;
+    padding-top: 0.313em;
+    width: 100%;
+}
+
+.bottomcards {
+    color: white;
+}
+
+.recensie {
+    background-color: #f3e5d9;
+    color: black;
+    height: 37em;
+    line-height: 1em;
+    padding: 1.25em;
+}
+
+
+
+
+
+/* bron uitklapmenu: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_collapsible */
+
+.collapsible {
+    align-content: center;
+    background-color: #fc376a;
+    border-radius: 1.250em;
+    color: white;
+    font-family: "nexaBold";
+    font-size: 1em;
+    height: 2em;
+    line-height: 0;
+    margin: 0.625em 0.625em 0.625em 1.875em;
+    width: 10em;
+}
+
+
+div {
+    background-color: #ffffff;
+    border-bottom-style: solid;
+    border-color: black;
+    border-radius: 1em;
+    color: black;
+    display: none;
+    margin: 0.625em 0.625em 0.625em 1.875em;
+    overflow: visible;
+    padding: 1em;
+    width: 75%;
+}
+
+/*einde bron*/
+
+
+
+
+
+#lange {
+    background-image: url(afbeeldingen/plaatjes/Lange-Frans1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 25em;
+    padding-top: 3.125em;
+    width: 100%;
+}
+
+#ongeluk {
+    background-image: url(afbeeldingen/plaatjes/13e1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 25em;
+    /* <-------<<- let op hoogte is aangepast*/
+    padding-top: 3.125em;
+    width: 100%;
+}
+
+#voetbalanalisten {
+    background-image: url(afbeeldingen/plaatjes/analisten.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 25em;
+    /* <-------<<- let op hoogte is aangepast*/
+    padding-top: 3.125em;
+    width: 100%;
+}
+
+#profiel {
+    align-content: center;
+    background-image: url(afbeeldingen/plaatjes/hangmat.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 25em;
+    /* <-------<<- let op hoogte is aangepast*/
+    padding-top: 3.125em;
+    width: 100%;
+}
+
+#leesbundels {
+    align-content: center;
+    background-image: url(afbeeldingen/plaatjes/beachreads2016.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 25em;
+    /* <-------<<- let op hoogte is aangepast*/
+    padding-top: 3.125em;
+    width: 100%;
+}
+
+
+#tekstveld {
+    border-radius: 0.750em;
+    height: 20em;
+    width: 35em;
+}
+
+#probeeranalisten {
+    background-image: url(afbeeldingen/plaatjes/analisten-card.png);
+    border-radius: 0.750em;
+    height: 9.375em;
+    line-height: 0;
+    margin: 0.625em;
+    padding: 0.625em;
+}
+
+#footerlogo {
+    height: 25px;
+}
+
+#zoekknop {
+    height: 15px;
+}
+
+
+
+@media (min-width: 35em) {
+    .beige {
+        display: grid;
+        grid-gap: .5em;
+        grid-template-columns: 1fr 1fr;
+        height: 23em;
+        margin-bottom: 1em;
+    }
+
+    .content {
+        display: grid;
+        grid-gap: .5em;
+        grid-template-columns: 1fr 1fr;
+    }
+
+
+    .homemain {
+        display: grid;
+        grid-gap: .5em;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .bottomcards {
+        display: grid;
+        grid-gap: .5em;
+        grid-template-columns: 1fr 1fr;
+
+    }
+
+    .recensie {
+        display: grid;
+        grid-gap: .5em;
+        grid-template-columns: 1fr;
+        height: 40em;
+    }
+
+    @media (min-width: 60em) {
+        .beige {
+            display: grid;
+            grid-gap: .5em;
+            grid-template-columns: 1fr 1fr 1fr;
+            height: 12em;
+            margin-bottom: 1em;
+        }
+
+        .content {
+            display: grid;
+            grid-gap: .5em;
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+
+        .homemain {
+            display: grid;
+            grid-gap: .5em;
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+    }

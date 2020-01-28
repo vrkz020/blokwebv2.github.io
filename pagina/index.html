@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link href="../bestanden/stylesheet.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a class="menu" href="index.html"><img src="../bestanden/afbeeldingen/logo/beeldmerk.png" height="50" alt="logo"></a></li>
+                <li><a class="menu" href="index.html">Home</a></li>
+                <li><a class="menu" href="leesbundels.html">Lees bundels</a></li>
+                <li><a class="menu" href="profiel.html">Mijn profiel</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+
+    <section id="lange">
+        <article class="meestgeliked">
+            <!-- <aside van maken?> -->
+            <h2>Meest gelezen</h2>
+            Lange Frans
+            <button class="ontdekkenknop">
+                Ontdekken
+            </button>
+        </article>
+    </section>
+
+
+
+    <section class="beige">
+        <article class="headlinelezen">
+            <a class="boektitel" href="ongeluk.html">
+                <h4>Verder lezen</h4>
+            </a>
+            <p><a href="ongeluk.html">Ongeluk</a></p>
+        </article>
+
+        <article class="headlinetijd">
+            <h3>nog</h3>
+            <h2>00 00 23 35</h2>
+            <h4>dagen uur min sec</h4>
+            <h3>Voor vertrek</h3>
+        </article>
+
+        <article class="headlinezoek">
+            <h2>Wat wil je lezen?</h2>
+            <input type="text" placeholder="">
+            <button class="zoek"><img id="zoekknop" src="../bestanden/afbeeldingen/logo/zoek.png" alt="zoek"></button>
+        </article>
+    </section>
+
+
+
+    <!-- bron uitklapmenu: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_collapsible -->
+    <!-- bron radiobuttons: https://www.w3schools.com/tags/att_input_type_radio.asp -->
+    <!-- bron checkbox: https://www.w3schools.com/tags/tryit.asp?filename=tryhtml5_input_type_checkbox -->
+    <button type="button" class="collapsible">Zoekopties</button>
+    <div class="content">
+        <form action="/action_page.php">
+            <h4>Sorteer</h4>
+            <p><input type="radio" name="sorteer1" value="gelezen"> Aantal keer gelezen</p>
+            <p><input type="radio" name="sorteer2" value="downloads"> Aantal downloads</p>
+            <p><input type="radio" name="sorteer3" value="favorieten"> Aantal favorieten</p>
+            <br>
+        </form>
+
+        <form action="/action_page.php">
+            <h4>Categorie</h4>
+            <p><input type="checkbox" name="categorie1" value="Beroemdheden"> Beroemdheden</p>
+            <p><input type="checkbox" name="categorie2" value="Emoties"> Emoties</p>
+            <p><input type="checkbox" name="categorie3" value="Sport"> Sport</p>
+            <br>
+        </form>
+
+
+        <form action="/action_page.php">
+            <h4>Leestijd</h4>
+            <p><input type="checkbox" name="leestijd1" value="0"> 0-5 min.</p>
+            <p><input type="checkbox" name="leestijd2" value="6"> 6-10 min.</p>
+            <p><input type="checkbox" name="leestijd3" value="11"> 11+ min.</p>
+            <br>
+        </form>
+    </div>
+
+    <!-- einde bronnen -->
+
+
+
+
+    <main class="homemain">
+        <!-- VOETBALANALISTENII -->
+        <article class="verhaalcard">
+            <a class="boektitel" href="voetbalanalistenII.html">
+                <h3>63. VoetbalanalistenII</h3>
+                <p><img class="leestijd" src="../bestanden/afbeeldingen/logo/tijd.png" alt="tijd">10 min.</p>
+                <!-- <img src="" alt=""> --><img src="../bestanden/afbeeldingen/plaatjes/analisten-card.png" alt='voetbalanalisten'>
+            </a>
+            <button class="mijnlijst">
+                + Mijn lijst
+            </button>
+            <button class="downloaden">
+                Downloaden
+            </button>
+        </article>
+
+        <!-- ONGELUK -->
+        <article class="verhaalcard">
+            <a class="boektitel" href="ongeluk.html">
+                <h3>13. Ongeluk</h3>
+                <p><img class="leestijd" src="../bestanden/afbeeldingen/logo/tijd.png" alt="tijd">10 min.</p>
+                <img src="../bestanden/afbeeldingen/plaatjes/ongeluk-card1.png" alt='Ongeluk'>
+
+            </a>
+            <button class="mijnlijst">
+                + Mijn lijst
+            </button>
+            <button class="downloaden">
+                Downloaden
+            </button>
+        </article>
+
+        <!-- JOHAN CRUIJFF -->
+        <article class="verhaalcard">
+            <a class="boektitel" href="johan.html">
+                <h3>14. Johan Cruijff</h3>
+                <p><img class="leestijd" src="../bestanden/afbeeldingen/logo/tijd.png" alt="tijd">15 min.</p>
+                <img src="../bestanden/afbeeldingen/plaatjes/cruyff-cardkopie.png" alt='JohanCruyff'>
+            </a>
+            <button class="mijnlijst">
+                + Mijn lijst
+            </button>
+            <button class="downloaden">
+                Downloaden
+            </button>
+        </article>
+
+        <!-- CHARLIE SHEEN -->
+        <article class="verhaalcard">
+            <a class="boektitel" href="charlie.html">
+                <h3>27. Charlie Sheen</h3>
+                <p><img class="leestijd" src="../bestanden/afbeeldingen/logo/tijd.png" alt="tijd">10 min.</p>
+                <img src="../bestanden/afbeeldingen/plaatjes/charlie-card.png" alt='CharlieSheen'>
+            </a>
+            <button class="mijnlijst">
+                + Mijn lijst
+            </button>
+            <button class="downloaden">
+                Downloaden
+            </button>
+        </article>
+
+        <!-- STONED -->
+        <article class="verhaalcard">
+            <a class="boektitel" href="stoned.html">
+                <h3>73. Stoned</h3>
+                <p><img class="leestijd" src="../bestanden/afbeeldingen/logo/tijd.png" alt="tijd">15 min.</p>
+                <img src="../bestanden/afbeeldingen/plaatjes/stoned-card.png" alt='Stoned'>
+            </a>
+            <button class="mijnlijst">
+                + Mijn lijst
+            </button>
+            <button class="downloaden">
+                Downloaden
+            </button>
+        </article>
+
+        <!-- ZOMBIE -->
+        <article class="verhaalcard">
+            <a class="boektitel" href="zombie.html">
+                <h3>89. Zombie</h3>
+                <p><img class="leestijd" src="../bestanden/afbeeldingen/logo/tijd.png" alt="tijd">10 min.</p>
+                <img src="../bestanden/afbeeldingen/plaatjes/zombie-card.png" alt='Zombie'>
+            </a>
+            <button class="mijnlijst">
+                + Mijn lijst
+            </button>
+            <button class="downloaden">
+                Downloaden
+            </button>
+        </article>
+
+
+    </main>
+
+    <footer>
+        <img id="footerlogo" src="../bestanden/afbeeldingen/logo/transavialogo.png" alt="logo">
+    </footer>
+
+</body>
+
+</html>
+
+
+<script src="../bestanden/script.js"></script>
